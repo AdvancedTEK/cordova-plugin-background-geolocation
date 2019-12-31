@@ -51,8 +51,8 @@ public final class SQLiteLocationContract {
                         LocationEntry.COLUMN_NAME_LATITUDE + REAL_TYPE + COMMA_SEP +
                         LocationEntry.COLUMN_NAME_LONGITUDE + REAL_TYPE + COMMA_SEP +
                         LocationEntry.COLUMN_NAME_RADIUS + REAL_TYPE + COMMA_SEP +
-                        LocationEntry.COLUMN_NAME_POSITION + REAL_TYPE + COMMA_SEP +
-                        LocationEntry.COLUMN_NAME_DIRECTION + REAL_TYPE + COMMA_SEP +
+                        LocationEntry.COLUMN_NAME_POSITION + TEXT_TYPE + COMMA_SEP +
+                        LocationEntry.COLUMN_NAME_DIRECTION + TEXT_TYPE + COMMA_SEP +
                         LocationEntry.COLUMN_NAME_HAS_ACCURACY + INTEGER_TYPE + COMMA_SEP +
                         LocationEntry.COLUMN_NAME_HAS_SPEED + INTEGER_TYPE + COMMA_SEP +
                         LocationEntry.COLUMN_NAME_HAS_BEARING + INTEGER_TYPE + COMMA_SEP +
